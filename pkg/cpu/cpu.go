@@ -71,7 +71,8 @@ type Processor struct {
 	Capabilities []string `json:"capabilities"`
 	// Cores is a slice of ProcessorCore` struct pointers that are packed onto
 	// this physical processor
-	Cores []*ProcessorCore `json:"cores"`
+	Cores     []*ProcessorCore `json:"cores"`
+	Frequency float64          `json:"frequency"`
 }
 
 // CoreByID returns the ProcessorCore having the supplied ID.

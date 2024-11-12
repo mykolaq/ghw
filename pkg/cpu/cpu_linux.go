@@ -111,6 +111,14 @@ func processorsGet(ctx *context.Context) []*Processor {
 			} else if lp.Attrs["CPU implementer"] == "0x41" { // ARM
 				proc.Vendor = "ARM"
 			}
+			if len(lp.Attrs["cpu MHz"]) != 0 {
+				freq, err := strconv.ParseFloat(lp.Attrs["cpu MHz"], 64)
+				if err != nil {
+					continue
+				}
+				proc.Frequency = freq
+
+			}
 			procs[procID] = proc
 		}
 

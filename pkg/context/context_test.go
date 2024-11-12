@@ -10,8 +10,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/option"
+	"github.com/mykolaq/ghw/pkg/context"
+	"github.com/mykolaq/ghw/pkg/option"
 )
 
 const (

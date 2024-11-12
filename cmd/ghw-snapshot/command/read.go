@@ -13,8 +13,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/jaypipes/ghw"
-	ghwcontext "github.com/jaypipes/ghw/pkg/context"
+	"github.com/mykolaq/ghw"
+	ghwcontext "github.com/mykolaq/ghw/pkg/context"
 )
 
 var readCmd = &cobra.Command{

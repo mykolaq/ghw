@@ -13,7 +13,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/jaypipes/ghw/pkg/option"
+	"github.com/mykolaq/ghw/pkg/option"
 )
 
 const (

@@ -9,9 +9,9 @@ package cpu
 import (
 	"fmt"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/marshal"
-	"github.com/jaypipes/ghw/pkg/option"
+	"github.com/mykolaq/ghw/pkg/context"
+	"github.com/mykolaq/ghw/pkg/marshal"
+	"github.com/mykolaq/ghw/pkg/option"
 )
 
 // ProcessorCore describes a physical host processor core. A processor core is

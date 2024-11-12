@@ -9,9 +9,9 @@ package net
 import (
 	"fmt"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/marshal"
-	"github.com/jaypipes/ghw/pkg/option"
+	"github.com/mykolaq/ghw/pkg/context"
+	"github.com/mykolaq/ghw/pkg/marshal"
+	"github.com/mykolaq/ghw/pkg/option"
 )
 
 // NICCapability is a feature/capability of a Network Interface Controller

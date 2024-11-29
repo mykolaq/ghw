@@ -9,10 +9,10 @@ package bios
 import (
 	"fmt"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/marshal"
-	"github.com/jaypipes/ghw/pkg/option"
-	"github.com/jaypipes/ghw/pkg/util"
+	"github.com/mykolaq/ghw/pkg/context"
+	"github.com/mykolaq/ghw/pkg/marshal"
+	"github.com/mykolaq/ghw/pkg/option"
+	"github.com/mykolaq/ghw/pkg/util"
 )
 
 // Info defines BIOS release information

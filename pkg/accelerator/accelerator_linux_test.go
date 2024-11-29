@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jaypipes/ghw/pkg/accelerator"
-	"github.com/jaypipes/ghw/pkg/option"
-	"github.com/jaypipes/ghw/pkg/snapshot"
+	"github.com/mykolaq/ghw/pkg/accelerator"
+	"github.com/mykolaq/ghw/pkg/option"
+	"github.com/mykolaq/ghw/pkg/snapshot"
 
-	"github.com/jaypipes/ghw/testdata"
+	"github.com/mykolaq/ghw/testdata"
 )
 
 func testScenario(t *testing.T, filename string, expectedDevs int) {

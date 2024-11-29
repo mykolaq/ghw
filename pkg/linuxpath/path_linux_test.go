@@ -14,9 +14,9 @@ import (
 
 	"testing"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/linuxpath"
-	"github.com/jaypipes/ghw/pkg/option"
+	"github.com/mykolaq/ghw/pkg/context"
+	"github.com/mykolaq/ghw/pkg/linuxpath"
+	"github.com/mykolaq/ghw/pkg/option"
 )
 
 func TestPathRoot(t *testing.T) {

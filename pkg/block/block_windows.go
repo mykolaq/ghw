@@ -11,7 +11,7 @@ import (
 
 	"github.com/StackExchange/wmi"
 
-	"github.com/jaypipes/ghw/pkg/util"
+	"github.com/mykolaq/ghw/pkg/util"
 )
 
 type physicalDiskMediaType int

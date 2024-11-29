@@ -16,10 +16,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/linuxpath"
-	"github.com/jaypipes/ghw/pkg/option"
-	"github.com/jaypipes/ghw/pkg/util"
+	"github.com/mykolaq/ghw/pkg/context"
+	"github.com/mykolaq/ghw/pkg/linuxpath"
+	"github.com/mykolaq/ghw/pkg/option"
+	"github.com/mykolaq/ghw/pkg/util"
 )
 
 func TestParseMountEntry(t *testing.T) {

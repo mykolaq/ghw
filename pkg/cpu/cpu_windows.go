@@ -12,13 +12,14 @@ import (
 	"github.com/StackExchange/wmi"
 )
 
-const wmqlProcessor = "SELECT Manufacturer, Name, NumberOfLogicalProcessors, NumberOfCores FROM Win32_Processor"
+const wmqlProcessor = "SELECT Manufacturer, Name, NumberOfLogicalProcessors, NumberOfCores, MaxClockSpeed FROM Win32_Processor"
 
 type win32Processor struct {
 	Manufacturer              *string
 	Name                      *string
 	NumberOfLogicalProcessors uint32
 	NumberOfCores             uint32
+	MaxClockSpeed             uint64
 }
 
 func (i *Info) load() error {
@@ -56,6 +57,7 @@ func processorsGet(win32descriptions []win32Processor) []*Processor {
 			TotalHardwareThreads: description.NumberOfLogicalProcessors,
 			// TODO(jaypipes): Remove NumThreads before v1.0
 			NumThreads: description.NumberOfLogicalProcessors,
+			Frequency:  float64(description.MaxClockSpeed),
 		}
 		procs = append(procs, p)
 	}
